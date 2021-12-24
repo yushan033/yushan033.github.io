@@ -781,14 +781,7 @@ blockquote {
 .box-btn-more .btn:hover {
   border: 1px solid #ebebeb;
 }
-.box-btn-more:before {
-  width: 100%;
-  content: "";
-  position: absolute;
-  top: 50%;
-  border-top: 1px solid #ebebeb;
-  left: 0;
-}
+
 /*== FORM  ==*/
 .form-control.form-flat {
   box-shadow: none !important;
