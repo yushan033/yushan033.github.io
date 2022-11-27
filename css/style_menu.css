@@ -69,9 +69,9 @@ h6 {
 /*============================
      03. HELPER
 ============================*/
-.bg1 {
+/*.bg1 {
   background-image: url(../index/download.png);
-}
+}*/
 
 .container-medium {
   padding-right: 15px;
@@ -1043,10 +1043,14 @@ textArea.form-flat {
 /*============================
      05. MAIN-HEADER
 ============================*/
-.main-header {
+.header{
+  height: 65px;
   position: relative;
 }
-/*.main-header .header-content-fixed {
+/*.main-header {
+  position: relative;
+}
+.main-header .header-content-fixed {
   height: 600px;
   background: url(../index/bg.jpg) no-repeat center;
   background-size: cover;
