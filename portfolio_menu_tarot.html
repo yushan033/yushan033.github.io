@@ -37,6 +37,20 @@
     .blog-content {
       padding-bottom: 30px;
     }
+    .video-container {
+     position: relative;
+       padding-bottom: 56.25%; /* 16:9 比例 */
+       height: 0;
+       overflow: hidden;
+    }
+
+    .video-container iframe {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+    }
   </style>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -125,7 +139,8 @@
                 <!--<p style="padding-bottom: 20px;"><a href="https://www.sinhotarot.com.tw/" target="blank" rel="noreferrer noopenner"><span style="font-weight: bold;">芯禾塔羅-網站連結</br></span></a></p>  -->
                 <p><span style="font-weight: bold;">芯禾塔羅-網頁視覺設計導覽</p> 
                 <div class="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/BJq9nyqfXJA?si=LLcXCq2Ma2UPxE0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/BJq9nyqfXJA?si=LLcXCq2Ma2UPxE0Y" frameborder="0" allowfullscreen></iframe>
+                  <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/BJq9nyqfXJA?si=LLcXCq2Ma2UPxE0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
                 </div>
               </div>
             </div>
